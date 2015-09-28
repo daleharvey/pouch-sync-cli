@@ -1,4 +1,17 @@
-~/src/pouch-sync-cli$ ./pouch-replicate.js --help
+pouch-sync-cli
+---
+
+Command-line tools for syncing or replicating PouchDB/CouchDB databases.
+
+```bash
+$ npm install -g pouch-sync-cli
+```
+
+Then you'll have a global `pouch-replicate` command:
+
+```bash
+$ pouch-replicate --help
+```
 
   Usage: pouch-replicate source target [options]
 
