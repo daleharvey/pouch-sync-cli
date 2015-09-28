@@ -1,0 +1,18 @@
+{
+  "name": "pouch-sync-cli",
+  "version": "1.0.0",
+  "description": "Command line helper for syncing Pouch / CouchDB databases",
+  "main": "pouch-sync.js",
+  "author": "Dale Harvey",
+  "license": "ISC",
+
+  "bin": {
+    "pouch-sync": "./pouch-sync.js",
+    "pouch-replicate": "./pouch-replicate.js"
+  },
+
+  "dependencies": {
+    "commander": "^2.8.1",
+    "pouchdb": "^4.0.3"
+  }
+}

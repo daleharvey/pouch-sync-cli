@@ -1,0 +1,16 @@
+~/src/pouch-sync-cli$ ./pouch-replicate.js --help
+
+  Usage: pouch-replicate source target [options]
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+    --live         Live syncing
+    --retry        Enable retry
+    --sync         2 way syncing
+
+  Examples:
+
+    $ pouch-replicate https://skimdb.npmjs.com/registry ./dir
+    $ pouch-replicate https://skimdb.npmjs.com/registry https://name.cloudant.com/npm-clone
